@@ -1,0 +1,29 @@
+.search-container {
+  position: relative;
+}
+
+.search-field {
+  margin-top: 20px;
+  width: calc(100% - 35px);
+  padding: 10px 10px 10px 20px;
+  font-size: 1.1rem;
+  border: 2px solid #ccada1;
+  border-radius: 5px;
+  transition: all .1s ease;
+  outline: none;
+  color: #a58f86;
+}
+
+.search-field[type=text]:focus {
+  border: 2px solid #a58f86;
+  -webkit-box-shadow: 0px 0px 5px 0px #ecd3ca;
+  -moz-box-shadow: 0px 0px 5px 0px #ecd3ca;
+  box-shadow: 0px 0px 15px 0px #ecd3ca !important;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+  color: #a58f86;
+}

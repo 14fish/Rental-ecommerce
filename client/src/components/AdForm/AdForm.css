@@ -1,0 +1,75 @@
+.form-container {
+  width: 70%;
+    margin: 0 auto;
+}
+
+.new-ad-title {
+  text-align: center;
+}
+
+.ad-decription {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.ad-decription:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+.add-input, .MuiDropzoneArea-root {
+  width: 100% !important;
+  margin: 15px 0 !important;
+}
+
+.form-checkbox-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin: 0 auto;
+  font: inherit;
+  color: rgba(0, 0, 0, 1);
+  padding: 0;
+  font-size: 1.1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+}
+
+.add-input-text {
+  font-size: 1rem !important;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+  margin-top: 10px !important;
+  text-align: left !important;
+  width: 60% !important;
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.add-btn {
+  margin-bottom: 50px !important;
+}
+
+.add-textarea {
+  font: inherit;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .new-ad-title {
+    font-size: 18px !important;
+  }
+}

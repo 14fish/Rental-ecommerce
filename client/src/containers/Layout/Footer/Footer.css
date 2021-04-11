@@ -1,0 +1,36 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c99480;
+  padding: 10px 50px;
+}
+
+.left-footer {
+  cursor: pointer;
+}
+
+.logo-footer {
+  width: 50px;
+}
+
+.copyright {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.company-name {
+  color: #362a25;
+  font-family: Roboto; 
+}
+
+@media only screen and (max-width: 320px) {
+  .logo-footer {
+    width: 30px;
+  }
+
+  .company-name {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+.register {
+  width: 50%;
+}
+
+.msg {
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  translate: (-50%,-50%);
+}
+
+.err-msg {
+  color: red;
+}
+
+.success-msg {
+  color: rgb(75, 75, 255);
+}

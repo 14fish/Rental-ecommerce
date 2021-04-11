@@ -1,0 +1,157 @@
+.messages {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  padding-top: 20px;
+  min-height: 70vh;
+}
+
+.messages-list {
+  border: 2px solid #C99480;
+  border-radius: 3px;
+  flex-basis: 0;
+  flex-grow: 1;
+  width: 100%;
+  max-height: 63vh;
+  overflow-y: scroll;
+}
+
+.message-tab {
+  display: flex;
+  justify-content: space-around;
+  width: calc(100% - 20px);
+  gap: 5px;
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.tab {
+  width: 100%;
+}
+
+.message-list-content {
+  border-radius: 3px;
+  margin: 5px auto 5px auto;
+  width: 95%;
+  list-style: none;
+  padding: 0;
+}
+
+.single-message-list {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  min-height: 40px;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #a78b81;
+  box-shadow: 0px 0px 3px 0px rgba(167, 139, 129, 1);
+  transition: all .1s ease;
+  user-select: none;
+  cursor: pointer;
+}
+
+.single-message-list:hover {
+  box-shadow: none;
+}
+
+.sender-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.sender {
+  font-weight: 500;
+  opacity: .9;
+}
+
+.time {
+  opacity: .8;
+  color: gray;
+}
+
+.sender-message {
+  font-size: .75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.messages-content {
+  border: 2px solid #C99480;
+  padding: 10px;
+  border-radius: 3px;
+  flex-basis: 0;
+  flex-grow: 4;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.messages-content-details {
+  background-color: #C99480;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.message-content-sender>span {
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.message-content-time>span {
+  font: 100;
+  opacity: 0.7;
+  color: white;
+}
+
+.message {
+  font-style: italic;
+  border: 2px solid #C99480;
+  border-radius: 3px;
+  padding: 10px;
+  min-height: 20vh;
+  margin-bottom: 50px;
+}
+
+.active-message {
+  background-color: #C99480;
+  border: 1px solid white !important;
+}
+
+.active-message .sender,
+.active-message .time {
+  color: white;
+}
+
+.active-message .sender-message {
+  color: white;
+  opacity: 0.8;
+
+}
+
+.message-content-actions {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.message-content-actions>button:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .messages {
+    flex-direction: column;
+    min-height: 80vh;
+  }
+}

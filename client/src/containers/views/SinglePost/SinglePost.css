@@ -1,0 +1,68 @@
+.single-post-container {
+  margin-top: 20px;
+}
+
+.img-gallery-container {
+  width: 100%;
+}
+
+.single-post-price {
+  width: 100%;
+  background-color: #a37868;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid rgb(73, 73, 73);
+}
+
+.single-post-price-inner-price {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  width: calc(100% - 60px);
+  border: 10px solid white;
+  height: 100%;
+  color: whitesmoke;
+}
+
+.single-post-detail {
+  width: 100%;
+  /* background-color: orange; */
+}
+
+.post-title {
+  margin-top: 20px;
+}
+
+.post-title>span {
+  font-size: 25px;
+  font-weight: 500;
+  color: #5f463d;
+}
+
+.detail-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.post-detail {
+  margin-bottom: 10px;
+}
+
+.post-contact-seller {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-seller-message {
+  width: 99%;
+  border-radius: 3px;
+  border: 1px solid #5f463d;
+  resize: none;
+}
+
+.contact-seller-btn {
+  width: 100%;
+  background-color: #5f463d !important;
+  color: whitesmoke !important;
+  margin: 10px 0 !important;
+}
