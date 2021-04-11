@@ -23,4 +23,4 @@ with "npm run" prefix:
 
 BackEnd [Araz Heyderov](https://gitlab.com/ArazHeyderov) - Express, SQLite, JSONWebToken
 
-FrontEnd [Fatih Hadisov](https://gitlab.com/fatihadisov) - React, Redux, Formik, Material UI
+FrontEnd [Fatih Hadisov](https://github.com/14fish) - React, Redux, Formik, Material UI
